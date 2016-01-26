@@ -10,6 +10,12 @@
     <h:body>
         <h:form>
             <h2>Hello from Facelets</h2>
+            <p>Enter values 1 and 2. Think of 1 as success and 2 as failure. So you land up on two
+            different pages like Successful login and failed login.</p>
+            <p>Don't forget to checkout "SampleJSF/web/WEB-INF/faces-config.xml" for navigation rules.
+            UserNumberBean's submit method is called when submit is button is pressed of this form.
+            Submit method than in turn return an outcome, Based on which decision is made with
+            the help of navigation rules which page to display next.</p>
             <h:inputText id="userNo"
                              title="Enter a number ether 1 or 2:"
                              value="#{userNumberBean.userNumber}">
