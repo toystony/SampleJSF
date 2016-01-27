@@ -6,12 +6,10 @@
     <navigation-rule>
         <from-view-id>/index.xhtml</from-view-id>
         <navigation-case>
-            <from-outcome>one</from-outcome>
             <from-outcome>1</from-outcome>
             <to-view-id>/one.xhtml</to-view-id>
         </navigation-case>
         <navigation-case>
-            <from-outcome>two</from-outcome>
             <from-outcome>2</from-outcome>
             <to-view-id>/Two.xhtml</to-view-id>
         </navigation-case>
