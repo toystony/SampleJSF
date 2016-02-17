@@ -8,7 +8,8 @@ package org.icewheel;
 import java.io.Serializable;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
-
+import com.google.common.collect.*;
+import com.google.common.math.IntMath;
 /**
  *
  * @author icewheel
@@ -17,6 +18,7 @@ import javax.inject.Named;
 @SessionScoped
 public class UserNumberBean implements Serializable{
     
+    IntMath im;
     private static final long serialVersionUID = 5443351151396868724L;
     private Integer userNumber = null;
     private int maximum = 2;
